@@ -18,7 +18,7 @@ The following **optional** features are implemented:
 * [ ] UI animations
 * [ ] Remembering the bill amount across app restarts (if <10mins)
 * [ ] Using locale-specific currency and currency thousands separators.
-* [ ] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
+* [X] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
 
 The following **additional** features are implemented:
 
@@ -28,9 +28,9 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://github.com/driuft/JustTheTip/blob/main/walkthrough.gif' title='Video Walkthrough' width='400' alt='Video Walkthrough' />
+<img src='https://github.com/driuft/JustTheTip/blob/main/tip-walkthrough.gif' title='Video Walkthrough' width='400' alt='Video Walkthrough' />
 
-GIF created with [Kap](https://getkap.co/).
+GIF created with [EZGIF](https://ezgif.com/video-to-gif).
 
 ## Notes
 
