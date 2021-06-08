@@ -17,6 +17,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        billAmountTextField.addTarget(self, action: #selector(textFieldChanged), for: .editingChanged)
+        
+        // show keyboard
+        billAmountTextField.becomeFirstResponder()
     }
 
     @IBAction func calculateTip(_ sender: Any) {
@@ -35,5 +39,8 @@ class ViewController: UIViewController {
         totalLabel.text = String(format: "$%.2f", total)
     }
 
+    @IBAction func textFieldChanged(_ sender: UITextView) {
+        calculateTip(sender)
+    }
 }
 
